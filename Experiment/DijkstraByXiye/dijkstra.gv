@@ -1,0 +1,33 @@
+digraph Dijkstra {
+node [shape=ellipse];
+v0[shape=diamond,color=red,fontcolor=red];
+v0[fontcolor=red,color=red];
+v1[fontcolor=red,color=red];
+v0->v1[style=bold,label=5,fontcolor=red,color=red];
+v1[fontcolor=red,color=red];
+v2[fontcolor=red,color=red];
+v1->v2[style=bold,label=7,fontcolor=red,color=red];
+v1[fontcolor=red,color=red];
+v3[fontcolor=red,color=red];
+v1->v3[style=bold,label=1,fontcolor=red,color=red];
+v2->v3[style=bold,label=10];
+v3[fontcolor=red,color=red];
+v4[fontcolor=red,color=red];
+v3->v4[style=bold,label=8,fontcolor=red,color=red];
+v3[fontcolor=red,color=red];
+v6[fontcolor=red,color=red];
+v3->v6[style=bold,label=3,fontcolor=red,color=red];
+v4[fontcolor=red,color=red];
+v5[fontcolor=red,color=red];
+v4->v5[style=bold,label=5,fontcolor=red,color=red];
+v4->v6[style=bold,label=5];
+v5->v0[style=bold,label=3];
+v5->v3[style=bold,label=3];
+v5->v6[style=bold,label=8];
+v6[fontcolor=red,color=red];
+v7[fontcolor=red,color=red];
+v6->v7[style=bold,label=10,fontcolor=red,color=red];
+v7->v0[style=bold,label=10];
+v7->v4[style=bold,label=6];
+v7->v5[style=bold,label=4];
+}

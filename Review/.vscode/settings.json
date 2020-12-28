@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "*.ttml": "xml",
+        "*.ttss": "css",
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "xstring": "cpp",
+        "xutility": "cpp",
+        "memory": "cpp"
+    }
+}
